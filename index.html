@@ -1,46 +1,538 @@
-<!doctype html>
-<html>
-<head>
-    <title>Example Domain</title>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <style type="text/css">
-    body {
-        background-color: #f0f0f2;
-        margin: 0;
-        padding: 0;
-        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        
-    }
-    div {
-        width: 600px;
-        margin: 5em auto;
-        padding: 2em;
-        background-color: #fdfdff;
-        border-radius: 0.5em;
-        box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
-    }
-    a:link, a:visited {
-        color: #38488f;
-        text-decoration: none;
-    }
-    @media (max-width: 700px) {
-        div {
-            margin: 0 auto;
-            width: auto;
-        }
-    }
-    </style>    
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ARLMedia</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <link rel="stylesheet" href="animate.min.css">
+  <script src="wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 </head>
 
 <body>
-<div>
-    <h1>Example Domain</h1>
-    <p>This domain is for use in illustrative examples in documents. You may use this
-    domain in literature without prior coordination or asking for permission.</p>
-    <p><a href="https://www.iana.org/domains/example">More information...</a></p>
-</div>
+  <header class="background footer-gradient">
+    <div class="orange">
+      <div class="menuContainer">
+        <nav class="menu">
+          <p class="line-height_name">Andrew Lloyd</p>
+          <ul class="flex-nav-links">
+            <li><a class="menuLink" href="#about">About</a></li>
+            <li><a class="menuLink" href="#skills">Skills</a></li>
+            <li><a class="menuLink" href="#portfolio">Portfolio</a></li>
+            <li><a class="menuLink" href="#experience">Experience</a></li>
+            <li><a class="menuLink" href="#contact">Contact</a></li>
+            <!-- <li><a class="menuLink" href="#">Github</a></li> Will not fit!-->
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="container">
+      <div class="intro wow animate__animated animate__zoomIn">
+        <div>
+          <h1 class="name">Andrew Lloyd</h1>
+          <h4 class="occupation">Web Developer & Videographer</h4>
+        </div>
+        <img src="./images/filming.png" alt="">
+      </div>
+
+    </div>
+  </header>
+
+  <main class="wow animate__animated animate__fadeIn">
+    <section id="about" class="whiteSection wow animate__animated animate__fadeInLeft">
+      <div class="whiteSection container">
+        <h2>About</h2>
+      </div>
+      <div class="panels container">
+        <div class="panel panel1">
+          <p>Graduated BA Hons</p>
+          <p>2012</p>
+          <p>Game Design</p>
+        </div>
+        <div class="panel panel2">
+          <p>Graduated</p>
+          <p>2014</p>
+          <p>MA Sound Design</p>
+        </div>
+        <div class="panel panel3">
+          <p>Moved to Canada</p>
+          <p>2016</p>
+          <p>From the UK</p>
+        </div>
+        <div class="panel panel4">
+          <p>Permanent Resident</p>
+          <p>2019</p>
+          <p>In Canada</p>
+        </div>
+        <div class="panel panel5">
+          <p>Lighthouse Labs</p>
+          <p>2020</p>
+          <p>Web Dev Bootcamp</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="background footer-gradient">
+      <div class="container wow animate__animated animate__fadeInDown">
+        <h2>Skills</h2>
+        <div>
+          <div class="skills-flex_row">
+            <p class="skill-min_width">HTML</p>
+            <meter class="skills-meter_spacing" value="7" min="0" max="10"></meter>
+            <p>70%</p>
+          </div>
+          <div class="skills-flex_row">
+            <p class="skill-min_width">CSS</p>
+            <meter class="skills-meter_spacing" value="5" min="0" max="10"></meter>
+            <p>50%</p>
+          </div>
+          <div class="skills-flex_row">
+            <p class="skill-min_width">JavaScript</p>
+            <meter class="skills-meter_spacing" value="8" min="0" max="10"></meter>
+            <p>80%</p>
+          </div>
+          <div class="skills-flex_row">
+            <p class="skill-min_width">jQuery</p>
+            <meter class="skills-meter_spacing" value="8" min="0" max="10"></meter>
+            <p>80%</p>
+          </div>
+          <div class="skills-flex_row">
+            <p class="skill-min_width">Adobe Premiere Pro</p>
+            <meter class="skills-meter_spacing" value="9" min="0" max="10"></meter>
+            <p>90%</p>
+          </div>
+          <div class="skills-flex_row">
+            <p class="skill-min_width">Adobe Audition</p>
+            <meter class="skills-meter_spacing" value="10" min="0" max="10"></meter>
+            <p>100%</p>
+          </div>
+          <div class="skills-flex_row">
+            <p class="skill-min_width">Video Production</p>
+            <meter class="skills-meter_spacing" value="10" min="0" max="10"></meter>
+            <p>100%</p>
+          </div>
+          <div class="skills-flex_row">
+            <p class="skill-min_width">Canva</p>
+            <meter class="skills-meter_spacing" value="9" min="0" max="10"></meter>
+            <p>90%</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="portfolio" class="orange white-text">
+      <div class="container wow animate__animated animate__fadeInUp">
+        <h2>Portfolio</h2>
+        <section class="web-dev" id="webdev">
+          <ul class="flex-row_around nolist-nodec noleft-padding">
+            <li class=""><a class="nolist-nodec white-text port-title-bigger" href="#webdev">Web Development</a></li>
+          </ul>
+          <div class="flex-row_center">
+
+            <div>
+              <a href="https://andrewrlloyd88.github.io/">
+                <div class="random portfolio-proj zoom bottom-margin_10"></div>
+              </a>
+              <p class="text-center port-desc_mw bottom-margin_10">Feeling bored? Find an activity to do using the Random Activity Generator. Built using React, HTML, CSS and JS. Uses API data from <a href="https://www.boredapi.com/">BoredAPI.com</a>
+              </p>
+            </div>
+
+            <div>
+              <a href="https://arlmedia-newsletter-signup.herokuapp.com/">
+                <div class="newsletter portfolio-proj zoom bottom-margin_10"></div>
+              </a>
+              <p class="text-center port-desc_mw bottom-margin_10">Sign up to my Mailchimp newsletter! Built following <a
+                  class="port-links" href="https://www.udemy.com/course/the-complete-web-development-bootcamp"> the
+                  complete web development bootcamp by Dr. Angela Yu.</a> Built using HTML, CSS Javascript and NodeJS, express and deployed on Heroku.
+              </p>
+            </div>
+
+            <div>
+              <a href="https://eager-keller-24b512.netlify.app/">
+                <div class="drum portfolio-proj zoom bottom-margin_10"></div>
+              </a>
+              <p class="text-center port-desc_mw bottom-margin_10">An interactive drum kit built following <a
+                  class="port-links" href="https://www.udemy.com/course/the-complete-web-development-bootcamp">The
+                  complete web development bootcamp by Dr. Angela Yu.</a> Built using HTML, CSS and JavaScript.
+              </p>
+            </div>
+
+            <div>
+              <a href="https://zealous-blackwell-43276e.netlify.app/">
+                <div class="dicee portfolio-proj zoom bottom-margin_10"></div>
+              </a>
+              <p class="text-center port-desc_mw bottom-margin_10">Dicee - A 2 player dice game that allows two people
+                to settle disputes via dice roll. Play by refreshing the page each time. Built following <a
+                  class="port-links" href="https://www.udemy.com/course/the-complete-web-development-bootcamp">The
+                  complete web development bootcamp by Dr. Angela Yu.</a> Built using HTML, CSS and JavaScript.
+              </p>
+            </div>
+
+            <div>
+              <a href="https://thirsty-heyrovsky-82e5a2.netlify.app/">
+                <div class="tindog portfolio-proj zoom bottom-margin_10"></div>
+              </a>
+              <p class="text-center port-desc_mw bottom-margin_10">Tindog - a mock startup website for your dog to find
+                their perfect match. Built following <a class="port-links"
+                  href="https://www.udemy.com/course/the-complete-web-development-bootcamp">The complete web development
+                  bootcamp by Dr. Angela Yu.</a> Built using HTML, CSS and Bootstrap4
+              </p>
+            </div>
+
+            <div>
+              <a href="https://sharp-heisenberg-a59d5f.netlify.app/">
+                <div class="tipple portfolio-proj zoom bottom-margin_10"></div>
+              </a>
+              <p class="text-center port-desc_mw bottom-margin_10">An app to search for your favourite cocktail drinks,
+                using data from <a class="port-links" href="https://www.thecocktaildb.com/api.php">The cocktailDB
+                  API.</a> Built using HTML, CSS and jQuery.
+              </p>
+            </div>
+
+            <div>
+              <a href="https://arlmediachatbotll2.herokuapp.com/">
+                <div class="chat-2 portfolio-proj zoom bottom-margin_10"></div>
+              </a>
+              <p class="text-center port-desc_mw bottom-margin_10">Web chat app with !Chatbot command built following <a
+                  class="port-links"
+                  href="https://lighthouse-labs.thinkific.com/courses/javascript-essentials-2">Lighthouse Labs'
+                  JavaScript
+                  Essentials
+                  II
+                  tutorial.</a> Ask
+                !Chatbot what the
+                weather will be like.
+              </p>
+            </div>
+
+            <div>
+              <a href="https://andrewrlmediawebchat.herokuapp.com/">
+                <div class="chat-1 portfolio-proj zoom bottom-margin_10"></div>
+              </a>
+              <p class="text-center port-desc_mw bottom-margin_10">Fully functioning chat app built using HTML, CSS, JS,
+                Node JS and Socket.IO. Built using <a class="port-links"
+                  href="https://lighthouse-labs.thinkific.com/courses/javascript">Lighthouse Labs'
+                  JavaScript
+                  Essentials I tutorial.</a>
+              </p>
+            </div>
+
+            <div>
+              <a href="https://arlmedia.ca/Bingo%20Card/index.html">
+                <div class="bingo portfolio-proj zoom bottom-margin_10"></div>
+              </a>
+              <p class="text-center port-desc_mw bottom-margin_10">Interactive bingo board built using HTML, CSS and
+                JavaScript. Tracks rows, columns and a complete blackout. Also generates a new randomized set of goals
+                from an array of goals on
+                refresh or reset.
+              </p>
+            </div>
+
+            <div>
+              <a href="https://arlmedia.ca/Forbidden%20Memories%20Card%20Tool/FMMarker.html">
+                <div class="ygofm portfolio-proj zoom bottom-margin_10"></div>
+              </a>
+              <p class="text-center port-desc_mw bottom-margin_10">Interactive card collection marker for Yu-Gi-Oh
+                Forbidden Memories. Built using HTML, CSS and JavaScript. Allows you to mark and unmark cards as you win
+                them and counts the total
+                number collected.
+              </p>
+            </div>
+
+            <div>
+              <a href="./codepen.html">
+                <div class="codepen portfolio-proj zoom bottom-margin_10"></div>
+              </a>
+              <p class="text-center port-desc_mw bottom-margin_10">View my <a class="port-links"
+                  href="./codepen.html">Codepen Gallery</a> here.
+              </p>
+            </div>
+          </div>
+
+        </section>
+
+        <section class="vid-prod" id="#design">
+          <ul class="flex-row_around nolist-nodec noleft-padding">
+            <li><a class="nolist-nodec white-text port-title-bigger" href="#design">Design</a></li>
+          </ul>
+
+          <div class="flex-row_center">
+
+            <div>
+              <a href="https://www.canva.com/design/DAEDAuK3xH4/_U400MKmxat24PzpJ_1O0A/view?website#4:a-hotel">
+                <div class="hotel portfolio-proj zoom bottom-margin_10"></div>
+              </a>
+              <p class="text-center port-desc_mw bottom-margin_10">Created on Canva <a class="port-links"
+                  href="https://www.canva.com/design/DAEDAuK3xH4/_U400MKmxat24PzpJ_1O0A/view?website#4:a-hotel">A mockup
+                  of a website for a contemporary hotel.</a>
+              </p>
+            </div>
+        </section>
+
+        <section class="vid-prod" id="videography">
+          <ul class="flex-row_around nolist-nodec noleft-padding">
+            <li><a class="nolist-nodec white-text port-title-bigger" href="#videography">Video Production</a></li>
+          </ul>
+
+          <div class="flex-row_center">
+
+            <div>
+              <a href="https://www.youtube.com/watch?v=soZ9rBhGM5k&feature=youtu.be">
+                <div class="testvid portfolio-proj zoom bottom-margin_10"></div>
+              </a>
+              <p class="text-center port-desc_mw bottom-margin_10">Created to promote <a class="port-links"
+                  href="https://www.bc.anglican.ca/special-ministries/anglican-campus-spirituality/pages/programs">Anglican
+                  Campus Spirituality programs at
+                  UVIC.</a>
+              </p>
+            </div>
+
+            <div>
+              <a href="https://www.youtube.com/watch?v=dDv2y4qarBo">
+                <div class="testvid2 portfolio-proj zoom bottom-margin_10"></div>
+              </a>
+              <p class="text-center port-desc_mw bottom-margin_10">Diana Gibson speaks on Social Justice in the One
+                Planet Region. Recorded for <a class="port-links"
+                  href="https://creativelyunited.org/one-planet-region/">Conversations for a One
+                  Planet Region.</a>
+              </p>
+            </div>
+
+          </div>
+        </section>
+      </div>
+      </div>
+    </section>
+
+    <section id="experience" class="whiteSection">
+      <div class="container">
+        <h2 class="wow animate__animated animate__slideInRight">Experience</h2>
+        <div class="wow animate__animated animate__slideInLeft">
+          <ul>
+            <div class="jobTitleLocaion">
+              <div class="jobTitleYearFormat">
+                <li><strong>Parish Administrator</strong></li>
+                <li><strong>September 2018 - Current</strong></li>
+              </div>
+              <li><em>St. Peter and St. Paul, Esquimalt BC, Canada</em></li>
+            </div>
+            <div>
+              <li>Maintains efficient office system through performance of various office duties including
+                correspondence, ordering supplies and scheduling building and amenities maintenance, managing numerous
+                filing systems including safe church and
+                criminal
+                record checks, updating parish databases including prayer lists and rosters, sending mailouts including
+                parish council minutes, parish news and diocesan updates, working closely with clergy to create weekly
+                bulletins</li>
+              <li>Promotes rental spaces developing new parish relationships and repeat business. Corresponds with
+                renters to manage expectations and needs, processes contracts, keeps up to date with diocesan rental and
+                insurance policies and
+                organizes
+                rental forms, calendar and information online</li>
+              <li>Works as a team with Clergy, leadership, volunteers and external organizations to create team cohesion
+                and maintain agile management of parish. Together ministries, events, services and meetings are promoted
+                and scheduled</li>
+              <li>Executes basis book keeping duties to assist treasurer with church budget. Aids in collecting rent and
+                reminders, handling donations, writing cheques and maintaining Canada helps donation page</li>
+            </div>
+          </ul>
+        </div>
+
+        <div class="wow animate__animated animate__slideInRight">
+          <ul>
+            <div class="jobTitleLocaion">
+              <div class="jobTitleYearFormat">
+                <li><strong>Instructor of Post Sound - Motion Picture Production</strong></li>
+                <li><strong>April 2017 - July 2018</strong></li>
+              </div>
+              <li><em>Pacific Design Academy, Victoria BC, Canada</em></li>
+            </div>
+            <div>
+              <li>Independently organised, directed and delivered a twelve week program, creating all course materials
+                and deliverables using the Microsoft Office suite</li>
+              <li>Addressed students work with feedback, responded to questions in both a written and verbal manner and
+                provided the administrative team with accurate attendance and graded information</li>
+              <li>Instructed weekly lectures instructing on topics such as Adobe Audition, technical audio editing,
+                production recording for film</li>
+            </div>
+          </ul>
+        </div>
+
+        <div class="wow animate__animated animate__slideInLeft">
+          <ul>
+            <div class="jobTitleLocaion">
+              <div class="jobTitleYearFormat">
+                <li><strong>Technical Representative (Casual)</strong></li>
+                <li><strong>April 2018 - September 2018</strong></li>
+              </div>
+              <li><em>Freeman Audio-Visual Canada, Victoria BC, Canada</em></li>
+            </div>
+            <div>
+              <li>Configured AV equipment for a number of events at venues on Vancouver Island</li>
+              <li>Assisted clients with technical issues, requiring fast thinking and turnaround</li>
+            </div>
+          </ul>
+        </div>
+
+        <div class="wow animate__animated animate__slideInRight">
+          <ul>
+            <div class="jobTitleLocaion">
+              <div class="jobTitleYearFormat">
+                <li><strong>Instructor – Audio-Visual Technical Services</strong></li>
+                <li><strong>January 2018 - April 2018</strong></li>
+              </div>
+            </div>
+            <li><em>Camosun College, Victoria BC, Canada</em></li>
+            <div>
+              <li>Created and taught fourteen week curriculum focusing on a broad range of technical audio visual skills
+                including video and audio recording</li>
+              <li>Worked within the communications department team to record various lectures and events which helped
+                promote departmental initiatives</li>
+              <li>Coordinated students during group work, office hours meetings and handled booking of industry
+                specialists for guest lecture series</li>
+            </div>
+          </ul>
+        </div>
+
+        <div class="wow animate__animated animate__slideInLeft">
+          <ul>
+            <div class="jobTitleLocaion">
+              <div class="jobTitleYearFormat">
+                <li><strong>Front Desk Administrator</strong></li>
+                <li><strong>November 2017 - May 2018</strong></li>
+              </div>
+              <li><em>Bayview One, Victoria BC, Canada</em></li>
+            </div>
+            <div>
+              <li>Maintained databases and paper and electronic documents for Strata including vehicle registration, pet
+                registration, resident information</li>
+              <li>Processed booking of appointments for trades, realtors, guest suite, lounge</li>
+              <li>Managed key database and created and edited keys to control key fob access to different areas within
+                building</li>
+              <li>Handled communications, bylaw updates and general announcements from the property and strata manager
+                to residents</li>
+            </div>
+          </ul>
+        </div>
+
+        <div class="wow animate__animated animate__slideInRight">
+          <ul>
+            <div class="jobTitleLocaion">
+              <div class="jobTitleYearFormat">
+                <li><strong>Technical QC Subtitling Administrator (Europe)</strong></li>
+                <li><strong>April 2015 - August 2016</strong></li>
+              </div>
+              <li><em>Zoo Digital, Sheffield, United Kingdom</em></li>
+            </div>
+            <div>
+              <li>Learned new software, converted subtitle streams and updated job completion status using proprietary
+                ZOO subtitle/core software</li>
+              <li>Asset management, accurately re-formatting subtitle files, retrieval and content delivery</li>
+              <li>Meticulously followed client specifications for subtitle files and style guidelines</li>
+              <li>Nominated for excellent team contribution award to ZOO Digital in May 2016</li>
+            </div>
+          </ul>
+        </div>
+
+        <div class="wow animate__animated animate__slideInLeft">
+          <ul>
+            <div class="jobTitleLocaion">
+              <div class="jobTitleYearFormat">
+                <li><strong>Administrative First Line Support Engineer</strong></li>
+                <li><strong>July 2015 - November 2015</strong></li>
+              </div>
+              <li><em>Ask4, Sheffield, United Kingdom</em></li>
+            </div>
+            <div>
+              <li>Helped customers connect to ASK4 services and assisted with network diagnostics</li>
+              <li>Provided excellent customer service, leading to record amount of sign-ups</li>
+              <li>Outbound calls to customers, site staff, and third party network providers</li>
+              <li>Used in-house account management system to aid network maintenance</li>
+              <li>Responded professionally and efficiently to E-Mail and live chat queries, handling confidential and
+                sensitive customer information</li>
+            </div>
+          </ul>
+        </div>
+
+        <div class="wow animate__animated animate__slideInRight">
+          <ul>
+            <div class="jobTitleLocaion">
+              <div class="jobTitleYearFormat">
+                <li><strong>Technical Designer and Tester</strong></li>
+                <li><strong>May 2011 - August 2011</strong></li>
+              </div>
+              <li><em>Sumo Digital, Sheffield, United Kingdom</em></li>
+            </div>
+            <div>
+              <li>Worked on designing gestures through scripting for Nike+ Kinect training released on Xbox 360</li>
+              <li>Wrote design documentation and bug tested features for Kinect hardware</li>
+              <li>Updated bug and game progress using bug tracking software</li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="greySection">
+      <div class="transparent">
+        <div class="container wow animate__animated animate__jackInTheBox">
+          <h2 class="center-content">Contact</h2>
+          <div class="center-content">
+            <ul class="contactLinks">
+              <li class="center-content">Email: <a class="left-padding_small"
+                  href="mailto:andrew.lloyd01@googlemail.com">andrew.lloyd01@googlemail.com</a></li>
+              <!-- <li>Telephone: <a href="tel:123 456 789">123 456 789</a></li> -->
+              <li class="center-content">Linkedin: <a class="left-padding_small"
+                  href="https://www.linkedin.com/in/andrewlloyd01/">Andrew Lloyd</a></li>
+              <li class="center-content">Facebook: <a class="left-padding_small"
+                  href="https://www.facebook.com/Andaleeni">Andrew Lloyd</a></li>
+              <!-- <li>Instagram: <a href="#">GageMalone 2</a></li> -->
+            </ul>
+          </div>
+          <div class="center-content">
+            <a href="./resume.pdf" download class="button contactButton">Download Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-gradient">
+      <div class="container wow animate__animated animate__zoomIn">
+        <div class="footer-style">
+          <div class="align-center">
+            <h3 class="name">Andrew Lloyd</h3>
+            <h5 class="occupation">Web Developer & Videographer</h5>
+            <a href="./resume.pdf" download class="button footerButton">Download Resume</a>
+          </div>
+          <div class="align-center">
+            <ul class="links footer-links_hover">
+              <li class="mail"><i class="las la-envelope"></i><a
+                  href="mailto:andrew.lloyd01@googlemail.com">andrew.lloyd01@googlemail.com</a></li>
+              <!-- <li>Telephone: <a href="tel:123 456 789">123 456 789</a></li> -->
+              <li class="ld"><i class="lab la-linkedin-in"></i><a
+                  href="https://www.linkedin.com/in/andrewlloyd01/">Andrew Lloyd</a></li>
+              <li class="fb"><i class="lab la-facebook-f"></i><a href="https://www.facebook.com/Andaleeni">Andrew
+                  Lloyd</a></li>
+              <li class="gh"><i class="lab la-github"></i><a href="https://github.com/AndrewRLloyd88">AndrewRLloyd88</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <script src="index.js"></script>
 </body>
+
 </html>
