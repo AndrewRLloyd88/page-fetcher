@@ -1,0 +1,22 @@
+{
+  "name": "page-fetcher",
+  "version": "1.0.0",
+  "description": "A project that fetches-pages part of lighthouse labs 12 week bootcamp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewRLloyd88/page-fetcher.git"
+  },
+  "author": "Andrew Lloyd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewRLloyd88/page-fetcher/issues"
+  },
+  "homepage": "https://github.com/AndrewRLloyd88/page-fetcher#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
